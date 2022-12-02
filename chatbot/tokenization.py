@@ -511,7 +511,7 @@ def _is_punctuation(char):
 if __name__ == '__main__':
     # Test
     text = '  sorry 总之，伤心，恼 火'
-    tokenizer = FullTokenizer(vocab_file='F:/QA/xd/chat/albert_small_zh_google/vocab_chinese.txt',
+    tokenizer = FullTokenizer(vocab_file='albert_small_zh_google/vocab_chinese.txt',
                               do_lower_case=True)                                       
     print(tokenizer.tokenize(text))
     
