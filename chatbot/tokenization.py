@@ -3,22 +3,17 @@
 Created on Mon Aug  8 15:27:17 2022
 
 @author: chenming
-@email: chenming6@xiaomi.com
 """
 
 
 import sys
-sys.path.append('F:/QA/xd')
-
-
-
+#sys.path.append('')
 import collections
 import re
 import unicodedata
 import six
 from six.moves import range
 import tensorflow.compat.v1 as tf
-#import tensorflow_hub as hub
 import sentencepiece as spm
 
 SPIECE_UNDERLINE = u"▁".encode("utf-8")
